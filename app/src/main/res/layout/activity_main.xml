@@ -15,4 +15,17 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageView
+        android:id="@+id/malaysia"
+        android:layout_width="253dp"
+        android:layout_height="257dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="194dp"
+        android:layout_marginEnd="107dp"
+        android:contentDescription="@string/plane"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/malaysia" />
+
 </android.support.constraint.ConstraintLayout>
