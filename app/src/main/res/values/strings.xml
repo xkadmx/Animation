@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Animation</string>
     <string name="plane">plane</string>
+    <string name="fly_high_as_a_kite">Fly high as a kite</string>
 </resources>
