@@ -16,7 +16,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/malaysia"
+        android:id="@+id/imageLogo"
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_marginStart="51dp"

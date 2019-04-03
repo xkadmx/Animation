@@ -18,9 +18,16 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        malaysia = (ImageView) findViewById(R.drawable.malaysia);
+        malaysia = findViewById(R.id.imageLogo);
+        startAnimation();
     }
     private void startAnimation(){
-        Animation alpha = new AlphaAnimation(1f,0f)
+        Animation alpha = new AlphaAnimation(1f,0f);
+        alpha.setDuration(4000);
+        alpha.setRepeatCount(5);
+
+        malaysia.startAnimation(alpha);
+
+
     }
 }
