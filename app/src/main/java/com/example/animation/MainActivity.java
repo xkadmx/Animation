@@ -21,6 +21,6 @@ public class MainActivity extends Activity {
         malaysia = (ImageView) findViewById(R.drawable.malaysia);
     }
     private void startAnimation(){
-        Animation alpha = new AlphaAnimation()
+        Animation alpha = new AlphaAnimation(1f,0f)
     }
 }
