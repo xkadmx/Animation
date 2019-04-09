@@ -27,6 +27,7 @@
         app:layout_constraintHorizontal_bias="0.679"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/malaysia" />
+        android:src="@drawable/malaysia"
+        app:srcCompat="@drawable/malaysia"/>
 
 </android.support.constraint.ConstraintLayout>
